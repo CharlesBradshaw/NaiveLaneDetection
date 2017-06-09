@@ -9,7 +9,7 @@ The goals / steps of this project are the following:
 * Run this pipeline on videos
 * Discuss problems and possible solutions
 
--
+
 ### Pipeline
 
 0. Input Image 
