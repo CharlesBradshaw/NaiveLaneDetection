@@ -1,8 +1,8 @@
-#Finding Lane Lines on the Road
+# Finding Lane Lines on the Road
 
 
 
-###Goals
+### Goals
 
 The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
@@ -10,7 +10,7 @@ The goals / steps of this project are the following:
 * Discuss problems and possible solutions
 
 -
-###Pipeline
+### Pipeline
 
 0. Input Image 
 <img src="test_images/solidWhiteRight.jpg" width="300">
@@ -22,18 +22,18 @@ The goals / steps of this project are the following:
 <img src="pipeline_images/masked_edges.jpg" width="300">
 4. Use Hough Transforms to detect lines and combine to a left and right lane
 <img src="pipeline_images/major_lines.jpg" width="300">
-6. Overlay Left/Right Lines
+5. Overlay Left/Right Lines
 <img src="pipeline_images/lines_overlayed.jpg" width="300">
 
 
-###Problems
+### Problems
 
 1. The pipeline assumes an empty road infront of it.
 2. The lines are jittery
 3. The mask is constant and could ignore part of a lane of a sharp turn
 4. Filtering for too steep / horizontal lines could get rid of important lines
 
-###Solutions
+### Solutions
 
 1. Detect cars and only process lines below the car
 2. Smooth lines between frames
